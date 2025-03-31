@@ -6,9 +6,9 @@ def limpiar_terminal():
 cadenas = []
 contador = 0
 
-print("Ingrese hasta 5 cadenas para reemplazar un carácter por otro.")
+print("Ingrese hasta 5 cadenas para reemplazar un carácter por otro.  (o presione Enter para salir...)")
 while contador < 5:
-    cadena = input(f"[{5 - contador} restantes] (o presione Enter para salir...): ")
+    cadena = input(f"[{5 - contador} restantes]: ")
     if cadena == "":
         while True:
             print("¿Está seguro de que desea terminar? (s/n)")

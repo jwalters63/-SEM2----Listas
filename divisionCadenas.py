@@ -6,7 +6,7 @@ def limpiar_terminal():
 cadenas = []
 contador = 0
 
-print("Ingrese hasta 5 cadenas para eliminar espacios al inicio y final.")
+print("Ingrese hasta 5 cadenas para dividir.")
 while contador < 5:
     cadena = input(f"[{5 - contador} restantes] (o presione Enter para salir...): ")
     if cadena == "":

@@ -3,7 +3,7 @@ cadenas = []
 contador = 0
 
 def limpiar_terminal():
-    os.system('cls' if os.name == 'nt' else 'clear')  # compatible con Windows, Linux y Mac
+    os.system('cls')
 
 while contador < 5:
     print(f"Escriba hasta 5 cadenas de texto para pasar a Mayúscula (par) o Minúscula (impar) [{5 - contador} restantes // Cadena vacía para terminar]:")
