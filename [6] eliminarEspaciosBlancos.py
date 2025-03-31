@@ -6,9 +6,9 @@ def limpiar_terminal():
 cadenas = []
 contador = 0
 
-print("Ingrese hasta 5 cadenas para eliminar espacios al inicio y final.")
+print(f"Ingrese hasta 5 cadenas para eliminar espacios al inicio y final. [{5 - contador} restantes] (o presione Enter para salir...)")
 while contador < 5:
-    cadena = input(f"[{5 - contador} restantes] (o presione Enter para salir...): ")
+    cadena = input("> ")
     if cadena == "":
         while True:
             print("¿Está seguro de que desea terminar? (s/n)")
